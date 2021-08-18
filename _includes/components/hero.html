@@ -14,10 +14,17 @@
       {{ hero.content | markdownify }}
 
       {% if hero.button %}
-      <a class="usa-button"
+      <!-- <a class="usa-button"
         href="{{ hero.button.href | relative_url }}">
         {{ hero.button.text }}
-      </a>
+      </a> -->
+      <button type="button" class="usa-button position-relative">
+        {{ hero.button.text }}
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+          {{ hero.button.number }}
+          <span class="visually-hidden">unread messages</span>
+        </span>
+      </button>
       {% endif %}
     </div>
   </div>

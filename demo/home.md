@@ -12,6 +12,7 @@ hero:
   button:
     href: /callout/
     text: Read the Research
+    number: 10+
   link:
     text: Link to more about that priority
     href: /link/
@@ -20,6 +21,12 @@ hero:
 tagline: Community-Driven Research
 intro: |
   VERONA conducts research through two main centers; The Center for iOT and Embedded Device Security (COTEDS) and the Center for Open-Source Threat Intelligence (COSTT). COTEDS leverages the iOT Research Library to obtain, catalog, and find vulnerabilities in iOT and embedded devices, specefically focusing on enviormental monitoring devices. Research in COTEDS identifies vulnerabilities, engages vendors, and coordinates responsible disclosures. COSTT 
+
+featured: Latest Research
+featured-intro: |
+  Our most recent vulnerability disclosures
+
+  
 
 graphics:
   - image:

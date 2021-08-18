@@ -3,6 +3,7 @@ title: Center
 permalink: /cocti
 
 layout: center
+articles: true
 
 hero:
   image: /assets/uswds/img/cocti.jpg
@@ -12,6 +13,7 @@ hero:
   button:
     href: /callout/
     text: Latest Products
+    number: 5
   link:
     text: Link to more about that priority
     href: /link/

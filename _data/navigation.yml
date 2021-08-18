@@ -28,9 +28,9 @@ primary:
         href: /bugbounty
   - text: Projects
     links:
-      - text: Center for iOT and Embedded Security
+      - text: Project on iOT, Embedded, and Networked Device Security
         href: /cotes
-      - text: Center for Open-Source Cyber Threat Intelligence
+      - text: Project on Cyber Threat Intelligence
         href: /cocti
       - text: Vulnerability Research Library
         href: /docs
@@ -48,7 +48,11 @@ primary:
         href: /contact
       - text: Researchers
         href: /researchers
-    external: true
+      - text: Get Involved
+        href: /get_involved
+      - text: Newsletter
+        href: /newsletter
+    external: false
 
 secondary:
   - text: Documentation

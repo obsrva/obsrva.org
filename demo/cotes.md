@@ -3,6 +3,7 @@ title: Center
 permalink: /cotes
 
 layout: center
+articles: true
 
 hero:
   image: /assets/uswds/img/iot.jpg
@@ -12,6 +13,7 @@ hero:
   button:
     href: /callout/
     text: Latest Products
+    number: 2
   link:
     text: Link to more about that priority
     href: /link/
