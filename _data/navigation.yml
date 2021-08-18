@@ -12,32 +12,54 @@
 #   links: primary
 #
 primary:
-  - text: Documentation
-    href: /docs/
-  - text: Navigation section
+  - text: About
     links:
-      - text: Demo link A
-        href: /two/a/
-      - text: Demo link B
-        href: /two/b/
-      - text: Demo link C
-        href: /two/c/
-      - text: Demo link D
-        href: /two/a/
-      - text: Demo link E
-        href: /two/b/
-      - text: Demo link F
-        href: /two/c/
-  - text: Referenced section
-    links: footer
-  - text: External link
-    href: https://18f.gsa.gov
+      - text: About VERONA
+        href: /about
+      - text: VERONA Team
+        href: /team
+  - text: Topics
+    links:
+      - text: iOT and Embedded Devices
+        href: /cotes
+      - text: Open-Source Applications
+        href: /foo
+      - text: Mainstream Bug Bounty
+        href: /bugbounty
+  - text: Projects
+    links:
+      - text: Center for iOT and Embedded Security
+        href: /cotes
+      - text: Center for Open-Source Cyber Threat Intelligence
+        href: /cocti
+      - text: Vulnerability Research Library
+        href: /docs
+  - text: Products
+    links:
+      - text: Common Vulnerabilities and Exposure Reports
+        href: /cve
+      - text: Responsible Vulnerability Disclosures
+        href: /responsibledisclosures
+      - text: Cyber Threat Intelligence Assessments
+        href: /cti
+  - text: Connect
+    links:
+      - text: Contact
+        href: /contact
+      - text: Researchers
+        href: /researchers
     external: true
 
 secondary:
   - text: Documentation
     href: /docs/
-  - text: Theme
+  - text: <i class="fab fa-facebook-square"></i>
+    href: /theme/
+  - text: <i class="fab fa-twitter-square"></i>
+    href: /theme/
+  - text: <i class="fab fa-linkedin"></i>
+    href: /theme/
+  - text: <i class="fab fa-github-square"></i>
     href: /theme/
 
 docs:

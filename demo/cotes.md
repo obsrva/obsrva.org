@@ -1,21 +1,21 @@
 ---
-title: Home
-permalink: /
+title: Center
+permalink: /cotes
 
-layout: home
+layout: center
 
 hero:
-  image: /assets/uswds/img/camera.jpg
+  image: /assets/uswds/img/iot.jpg
   callout:
-    alt: "Our Mission:"
-    text: Find, Triage, Disclose
+    alt: 
+    text: Center for iOT and Embedded Security
   button:
     href: /callout/
-    text: Read the Research
+    text: Latest Products
   link:
     text: Link to more about that priority
     href: /link/
-  content: VERONA Lab produces leading vulnerability research in iOT and embedded device security.
+  content: "Vulnerability research for networked devices; enviormental monitoring devices, printers, smart thermostats,ect."
 
 tagline: Community-Driven Research
 intro: |
@@ -26,21 +26,29 @@ graphics:
       src: 
       alt: 
     title: Vulnerability Research.
+    author: Tyler Butler
+    date: "July 12"
     description: VERONA finds common [vulnerabilities](javascript:void(0);) in everyday applications, open-source projects on platforms like GitHub and Sourceforge.
   - image:
       src: 
       alt: ""
     title: Responsible Disclosure.
+    author: Tyler Butler
+    date: "July 12"
     description: Researchers engage application and product vendors to notify stakeholders of vulnerabilities and provide mitigation recommendations.
   - image:
       src: 
       alt: ""
     title: Cyber Threat Intelligence.
+    author: Tyler Butler
+    date: "July 12"
     description: VERONA creates custom CTI tools to scan the internet for vulnerable endpoints and notify asset owners of potentially compromised devices.
   - image:
       src: 
       alt: ""
     title: Community Focused Support.
+    date: "July 12"
+    author: Tyler Butler
     description: VERONA supports the vulnerability research community through community outreach projects like the Vulnerability Research Library and the CTF Guide (ctfguide.org)
 ---
 

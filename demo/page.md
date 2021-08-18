@@ -1,37 +1,33 @@
 ---
-title: Documentation
-description: This is a documentation page.
+title: Vulnerability Research Library
+description: The research library is a repository of iOT and embedded devices availabale to be loaned for independent security research. Check out catalog below and request a device to collaborate on our research.
 permalink: /docs/
 
 layout: post
 sidenav: docs
 subnav:
-  - text: Section one
-    href: '#section-one'
-  - text: Section two
-    href: '#section-two'
+  - text: Video Encoders
+    href: '#video-encoders'
+  - text: Printers
+    href: '#printers'
 ---
 
-## Section one
+The research library is a repository of iOT and embedded devices availabale to be loaned for independent security research. Check out catalog below and request a device to collaborate on our research.
+
+## Video Encoders
 
 This is some [content](https://18f.gsa.gov/).
 
-### Section two
+### Teradek
+
+#### Cube 305 Encoder
+
+*The Cube 555 is a camera-top wireless SD video encoder that works with composite cameras. The device streams via dual-band MIMO WiFi, Ethernet, or a single 3G/4G USB modem.*
+
+Point of Contact: [contact@verona.org](mailto:contact@verona.org)  
+Vendor Website: [teradek.com](teradek.com)  
+
+
+## Printers
 
 This is some more [content](javascript:void(0);).
-
-#### Section three
-
-This is some more [content](#).
-
-##### Section four
-
-This is some more [content](https://18f.gsa.gov/).
-
-###### Section five
-
-This is some more [content](https://18f.gsa.gov/).
-
-###### Section six
-
-This is some more [content](https://18f.gsa.gov/).
