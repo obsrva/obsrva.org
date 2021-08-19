@@ -1,7 +1,7 @@
 ---
 title: Researchers
 layout: page
-permalink: researchers
+permalink: team
 ---
 
 VERONA Lab is supported by a variety of researchers

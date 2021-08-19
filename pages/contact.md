@@ -18,8 +18,6 @@ If you'd like to reach out to VERONA labs, please fill out the following form.
 
     <label for="country">Country</label>
     <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
       <option value="usa">USA</option>
     </select>
 

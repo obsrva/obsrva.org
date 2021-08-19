@@ -6,7 +6,7 @@ layout: center
 articles: true
 
 hero:
-  image: /assets/uswds/img/iot.jpg
+  image: /assets/uswds/img/cocti.jpg
   callout:
     alt: 
     text: Center for iOT and Embedded Security

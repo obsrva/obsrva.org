@@ -47,12 +47,10 @@ primary:
       - text: Contact
         href: /contact
       - text: Researchers
-        href: /researchers
-      - text: Get Involved
-        href: /get_involved
-      - text: Newsletter
-        href: /newsletter
+        href: /team
     external: false
+  - text: Blog
+    href: /blog
 
 secondary:
   - text: Documentation

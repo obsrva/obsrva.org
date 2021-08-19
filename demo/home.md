@@ -13,6 +13,7 @@ hero:
     href: /callout/
     text: Read the Research
     number: 10+
+    enable: true
   link:
     text: Link to more about that priority
     href: /link/
@@ -51,9 +52,8 @@ graphics:
     description: VERONA supports the vulnerability research community through community outreach projects like the Vulnerability Research Library and the CTF Guide (ctfguide.org)
 ---
 
-## Section heading
+## Collaboration is Key    
 
-{:.font-heading-xl.margin-y-0"}
 
 VERONA Lab encourages collaboration from across the infosec community. If you're an independent security researcher, academic institution, or just getting started in cyber security, VERONA has a place for you. Start your journey with VERONA by filling out our form below and a representative will reach out if there open positions available.
 {:.usa-intro }
