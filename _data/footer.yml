@@ -32,7 +32,7 @@ links: footer
 big_footer_signup_form: false
 
 # Configuration for footer heading. (optional)
-heading: VERONA Lab
+heading: Internet Vulnerability Observatory
 
 # Configuration for agency logo(s) (shown side by side).
 # If the logo is external add external: true
@@ -63,10 +63,10 @@ contact:
   #   href: https://usa.gov/
   #   external: true
   #   type: rss
-  heading: VERONA Lab
+  heading: Internet Vulnerability Observatory
   # Configuration for contact links for email, phone, etc...
   contact_links:
     - text: 800-555-5555
       href: tel:1-800-555-5555
-    - text: contact@verona.org
-      href: mailto:contact@verona.org
+    - text: contact@obsrva.org
+      href: mailto:contact@obsrva.org

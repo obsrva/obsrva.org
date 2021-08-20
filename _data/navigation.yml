@@ -14,9 +14,9 @@
 primary:
   - text: About
     links:
-      - text: About VERONA
+      - text: About obsrva
         href: /about
-      - text: VERONA Team
+      - text: obsrva Team
         href: /team
   - text: Topics
     links:
@@ -38,9 +38,9 @@ primary:
     links:
       - text: Common Vulnerabilities and Exposure Reports
         href: /cve
-      - text: Responsible Vulnerability Disclosures
-        href: /responsibledisclosures
-      - text: Cyber Threat Intelligence Assessments
+      - text: Responsible Disclosures
+        href: /disclosures
+      - text: CTI Assessments
         href: /cti
   - text: Connect
     links:

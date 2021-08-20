@@ -4,7 +4,7 @@ layout: page
 permalink: team
 ---
 
-VERONA Lab is supported by a variety of researchers
+Internet Vulnerability Observatoryis supported by a variety of researchers
 
 <div class="card mb-3" style="width: 100%;">
   <div class="row g-0">
@@ -14,7 +14,7 @@ VERONA Lab is supported by a variety of researchers
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title"><b>Tyler Butler</b> | Founder & Lead Researcher</h5>
-        <p class="card-text">Tyler is the founder and lead researcher at VERONA Labs. He gained his undergraduate degree in Security and Risk Analysis from The Pennsylvania State University and started his cyber security career at Deloitte where he served clients as a penetration tester and red team operator. Tyler currently holds the eWPT and eJPT certifications, is credited with several CVE's including CVE-2021-35956, and was nominated to the Motorola Solutions Bug Bounty Hall of Fame Member.</p>
+        <p class="card-text">Tyler is the founder and lead researcher at Internet Vulnerability Observatorys. He gained his undergraduate degree in Security and Risk Analysis from The Pennsylvania State University and started his cyber security career at Deloitte where he served clients as a penetration tester and red team operator. Tyler currently holds the eWPT and eJPT certifications, is credited with several CVE's including CVE-2021-35956, and was nominated to the Motorola Solutions Bug Bounty Hall of Fame Member.</p>
         <i class="fab fa-linkedin-in"></i>
         <i class="fab fa-twitter"></i>
         <i class="fab fa-github"></i>
@@ -33,7 +33,7 @@ VERONA Lab is supported by a variety of researchers
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title"><b>Tyler Butler</b> | Founder & Lead Researcher</h5>
-        <p class="card-text">Tyler is the founder and lead researcher at VERONA Labs. He gained his undergraduate degree in Security and Risk Analysis from The Pennsylvania State University and started his cyber security career at Deloitte where he served clients as a penetration tester and red team operator. Tyler currently holds the eWPT and eJPT certifications, is credited with several CVE's including CVE-2021-35956, and was nominated to the Motorola Solutions Bug Bounty Hall of Fame Member.</p>
+        <p class="card-text">Tyler is the founder and lead researcher at Internet Vulnerability Observatorys. He gained his undergraduate degree in Security and Risk Analysis from The Pennsylvania State University and started his cyber security career at Deloitte where he served clients as a penetration tester and red team operator. Tyler currently holds the eWPT and eJPT certifications, is credited with several CVE's including CVE-2021-35956, and was nominated to the Motorola Solutions Bug Bounty Hall of Fame Member.</p>
         <i class="fab fa-linkedin-in"></i>
         <i class="fab fa-twitter"></i>
         <i class="fab fa-github"></i>
@@ -52,7 +52,7 @@ VERONA Lab is supported by a variety of researchers
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title"><b>Tyler Butler</b> | Founder & Lead Researcher</h5>
-        <p class="card-text">Tyler is the founder and lead researcher at VERONA Labs. He gained his undergraduate degree in Security and Risk Analysis from The Pennsylvania State University and started his cyber security career at Deloitte where he served clients as a penetration tester and red team operator. Tyler currently holds the eWPT and eJPT certifications, is credited with several CVE's including CVE-2021-35956, and was nominated to the Motorola Solutions Bug Bounty Hall of Fame Member.</p>
+        <p class="card-text">Tyler is the founder and lead researcher at Internet Vulnerability Observatorys. He gained his undergraduate degree in Security and Risk Analysis from The Pennsylvania State University and started his cyber security career at Deloitte where he served clients as a penetration tester and red team operator. Tyler currently holds the eWPT and eJPT certifications, is credited with several CVE's including CVE-2021-35956, and was nominated to the Motorola Solutions Bug Bounty Hall of Fame Member.</p>
         <i class="fab fa-linkedin-in"></i>
         <i class="fab fa-twitter"></i>
         <i class="fab fa-github"></i>

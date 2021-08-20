@@ -24,7 +24,7 @@ This is some [content](https://18f.gsa.gov/).
 
 *The Cube 555 is a camera-top wireless SD video encoder that works with composite cameras. The device streams via dual-band MIMO WiFi, Ethernet, or a single 3G/4G USB modem.*
 
-Point of Contact: [contact@verona.org](mailto:contact@verona.org)  
+Point of Contact: [contact@obsrva.org](mailto:contact@obsrva.org)  
 Vendor Website: [teradek.com](teradek.com)  
 
 
