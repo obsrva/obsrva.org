@@ -1,6 +1,6 @@
 ---
 title: Center
-permalink: /cotes
+permalink: /pvd
 
 layout: center
 articles: true
@@ -9,7 +9,7 @@ hero:
   image: /assets/uswds/img/cocti.jpg
   callout:
     alt: 
-    text: Center for iOT and Embedded Security
+    text: Project on Vulnerability Discovery
   button:
     href: /callout/
     text: Latest Products
@@ -17,7 +17,7 @@ hero:
   link:
     text: Link to more about that priority
     href: /link/
-  content: "Vulnerability research for networked devices; enviormental monitoring devices, printers, smart thermostats,ect."
+  content: "In 2021, The Project on Vulnerability Discovery is responsible for publishing 2 CVE's, 1 CVE in the pipeline to be disclosed, and several disclosures in open-source and mainstream bug bounty programs"
 
 tagline: Community-Driven Research
 intro: |

@@ -15,7 +15,13 @@
 
       {% if hero.button.enable %}
       <button type="button" class="usa-button position-relative">
+        {% if hero.button.href %}
+        <a style="text-decoration: none;color:white;" href="{{hero.button.href | uri_escape}}">
+        {% endif %}
         {{ hero.button.text }}
+        {% if hero.button.href %}
+        </a>
+        {% endif %}
         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
           {{ hero.button.number }}
           <span class="visually-hidden">unread messages</span>

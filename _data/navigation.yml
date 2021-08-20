@@ -28,10 +28,8 @@ primary:
         href: /bugbounty
   - text: Projects
     links:
-      - text: Project on iOT, Embedded, and Networked Device Security
-        href: /cotes
-      - text: Project on Cyber Threat Intelligence
-        href: /cocti
+      - text: Project on Vulnerability Discovery
+        href: /pvd
       - text: Vulnerability Research Library
         href: /docs
   - text: Products

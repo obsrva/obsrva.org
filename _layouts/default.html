@@ -73,9 +73,9 @@ main: foo, bar, qaz
 
     {% if page.featured and page.featured-intro %}
     <section class="grid-container usa-section">
-      <div class="grid-row grid-gap">
+      <div class="grid-row grid-gap" >
         <div class="tablet:grid-col-4">
-          <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">Latest Research</h2>
+          <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0" id="{{page.featured | uri_escape }}">Latest Research</h2>
         </div>
         <div class="tablet:grid-col-8 usa-prose">
           {% for item in site.data.vulnerabilities %}
@@ -90,9 +90,9 @@ main: foo, bar, qaz
             </div>
             <br>
           {% endfor %}
-          <button type="button" class="usa-button position-relative">
+          <!-- <button type="button" class="usa-button position-relative">
             Read More
-          </button>
+          </button> -->
         </div>
       </div>
     </section>

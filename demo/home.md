@@ -7,21 +7,21 @@ layout: home
 hero:
   image: /assets/uswds/img/camera.jpg
   callout:
-    alt: "Our Mission:"
+    alt: "Our Mission"
     text: Find, Triage, Disclose
   button:
-    href: /callout/
-    text: Read the Research
-    number: 10+
+    href: /#Latest%20Research
+    text: Latest Research
+    number: 2+
     enable: true
   link:
     text: Link to more about that priority
     href: /link/
-  content: Internet Vulnerability Observatoryproduces leading vulnerability research in iOT and embedded device security.
+  content: The Internet Vulnerability Observatory (Obsrva) conducts vulnearbility research, engages vendors to remediate problems, discloses issues for peer review, and runs outreach projects for independent  researchers
 
 tagline: Community-Driven Research
 intro: |
-  obsrva conducts research through two main centers; The Center for iOT and Embedded Device Security (COTEDS) and the Center for Open-Source Threat Intelligence (COSTT). COTEDS leverages the iOT Research Library to obtain, catalog, and find vulnerabilities in iOT and embedded devices, specefically focusing on enviormental monitoring devices. Research in COTEDS identifies vulnerabilities, engages vendors, and coordinates responsible disclosures. COSTT 
+  Obsrva is focused on finding overlooked vulnerabilities, responsibly engaging vendors, and producing easily-consumable products. Researchers on [The Project on Vulnerability Discovery](https://obsrva.org/pvd) choose from a wide range of research topics, and current research is focused on embedded webservers of iOT devices—such as enviormental monitoring systems, printers, and smart home devices.
 
 featured: Latest Research
 featured-intro: |

@@ -4,7 +4,7 @@ layout: page
 permalink: contact
 ---
 
-If you'd like to reach out to Internet Vulnerability Observatorys, please fill out the following form. 
+If you'd like to reach out to Internet Vulnerability Observatory , please fill out the following form. 
 
 
 <div class="container">
