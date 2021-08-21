@@ -1,0 +1,120 @@
+---
+main: foo, bar, qaz
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
+  <head>
+    {% include meta.html %}
+    {% include styles.html %}
+    {% if site.google_analytics_ua or site.dap_agency %}
+      {% include analytics.html %}
+    {% endif %}
+  </head>
+  <body class="{{ layout.class }} {{ page.class }} {% if site.site_width %}site-{{ site.site_width }}{% endif %}">
+    {% include skipnav.html %}
+    {% include header.html %}
+
+    {% assign hero = page.hero %}
+    {% include components/hero.html %}
+
+    {% if page.tagline and page.intro %}
+    <section class="grid-container usa-section">
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-4">
+          <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">{{ page.tagline }}</h2>
+        </div>
+        <div class="tablet:grid-col-8 usa-prose">
+          {{ page.intro | markdownify }}
+        </div>
+      </div>
+    </section>
+    {% endif %}
+
+    {% if page.articles %}
+    <section class="grid-container usa-section">
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-4">
+          <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">Latest Products</h2>
+        </div>
+        <div class="tablet:grid-col-8 usa-prose">
+          {% for post in site.posts %}
+            <div class="card border-light mb-3" style="width: 100%;">
+              <div class="card-header">
+                <a href="{{post.url}}" style="color:black;">{{ post.title }}</a>
+              </div>
+              <div class="card-body">
+                <!-- <p class="card-text"><i>{{post.author}} | published {{post.date | date: "%b %d, %y" }}</i></p> -->
+                <p class="card-text">{{ post.lead }}</p>
+                <p class="card-text"><small class="text-muted">{{post.author}} | Published {{post.date | date: "%b %d, %y" }}</small></p>
+
+              </div>
+            </div>
+            <br>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+    {% endif %}
+
+
+    {% capture _graphics %}
+      {% include graphic-list-post.html graphics=page.graphics %}
+    {% endcapture %}
+
+    {% capture _graphics %}
+      {% include graphic-list.html graphics=page.graphics %}
+    {% endcapture %}
+
+    {% if page.graphics_position != 'after' %}
+      {{ _graphics }}
+    {% endif %}
+
+
+
+    {% if page.featured and page.featured-intro %}
+    <section class="grid-container usa-section">
+      <div class="grid-row grid-gap" >
+        <div class="tablet:grid-col-4">
+          <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0" id="{{page.featured | uri_escape }}">Latest Research</h2>
+        </div>
+        <div class="tablet:grid-col-8 usa-prose">
+          {% for item in site.data.vulnerabilities %}
+            <div class="card border-light mb-3" style="width: 100%;">
+              <div class="card-header">[ {{ item.cve }}] {{ item.title }}</div>
+              <div class="card-body">
+                <p class="card-title">{{item.description}}</p>
+                <i class="far fa-file-pdf"></i>
+                <i class="fas fa-external-link-alt"></i>
+                <i class="fas fa-bug"></i>
+              </div>
+            </div>
+            <br>
+          {% endfor %}
+          <!-- <button type="button" class="usa-button position-relative">
+            Read More
+          </button> -->
+        </div>
+      </div>
+    </section>
+    {% endif %}
+
+
+    {% if page.layout == 'post' %}
+      {{ content }}
+    {% else %}
+      <main id="main-content"{% for _attr in layout.main %} {{ _attr[0] }}="{{ _attr[1] }}"{% endfor %}>
+        {{ content }}
+      </main>
+    {% endif %}
+
+    {% if page.graphics_position == 'after' %}
+      {{ _graphics }}
+    {% endif %}
+
+    {% include footer.html %}
+
+    {% include scripts.html %}
+
+  </body>
+</html>

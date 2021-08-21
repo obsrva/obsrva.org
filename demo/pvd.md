@@ -4,6 +4,7 @@ permalink: /pvd
 
 layout: center
 articles: true
+product: cve
 
 hero:
   image: /assets/uswds/img/cocti.jpg
