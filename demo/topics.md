@@ -1,63 +1,61 @@
 ---
-title: Center
-permalink: /pvd
+title: Topics
+permalink: topics
 
-layout: center
+layout: topics
 articles: true
 tag: cve
 
 hero:
-  image: /assets/uswds/img/cocti.jpg
+  image: /assets/uswds/img/camera.jpg
   callout:
-    alt: 
-    text: Project on Vulnerability Discovery
+    alt: "Topics Home"
+    text: Find, Triage, Disclose
   button:
-    href: /callout/
-    text: Latest Products
-    number: 2
+    href: /#Latest%20Research
+    text: Latest Research
+    number: 2+
+    enable: true
   link:
     text: Link to more about that priority
     href: /link/
-  content: "In 2021, The Project on Vulnerability Discovery is responsible for publishing 2 CVE's, 1 CVE in the pipeline to be disclosed, and several disclosures in open-source and mainstream bug bounty programs"
+  content: The Internet Vulnerability Observatory (Obsrva) conducts vulnearbility research, engages vendors to remediate problems, discloses issues for peer review, and runs outreach projects for independent  researchers
 
 tagline: Community-Driven Research
 intro: |
-  obsrva conducts research through two main centers; The Center for iOT and Embedded Device Security (COTEDS) and the Center for Open-Source Threat Intelligence (COSTT). COTEDS leverages the iOT Research Library to obtain, catalog, and find vulnerabilities in iOT and embedded devices, specefically focusing on enviormental monitoring devices. Research in COTEDS identifies vulnerabilities, engages vendors, and coordinates responsible disclosures. COSTT 
+  Obsrva is focused on finding overlooked vulnerabilities, responsibly engaging vendors, and producing easily-consumable products. Researchers on [The Project on Vulnerability Discovery](https://obsrva.org/pvd) choose from a wide range of research topics, and current research is focused on embedded webservers of iOT devices—such as enviormental monitoring systems, printers, and smart home devices.
+
+featured: Latest Research
+featured-intro: |
+  Our most recent vulnerability disclosures
+
+  
 
 graphics:
   - image:
       src: 
       alt: 
     title: Vulnerability Research.
-    author: Tyler Butler
-    date: "July 12"
     description: obsrva finds common [vulnerabilities](javascript:void(0);) in everyday applications, open-source projects on platforms like GitHub and Sourceforge.
   - image:
       src: 
       alt: ""
     title: Responsible Disclosure.
-    author: Tyler Butler
-    date: "July 12"
     description: Researchers engage application and product vendors to notify stakeholders of vulnerabilities and provide mitigation recommendations.
   - image:
       src: 
       alt: ""
     title: Cyber Threat Intelligence.
-    author: Tyler Butler
-    date: "July 12"
     description: obsrva creates custom CTI tools to scan the internet for vulnerable endpoints and notify asset owners of potentially compromised devices.
   - image:
       src: 
       alt: ""
     title: Community Focused Support.
-    date: "July 12"
-    author: Tyler Butler
     description: obsrva supports the vulnerability research community through community outreach projects like the Vulnerability Research Library and the CTF Guide (ctfguide.org)
 ---
 
-## Section heading
+## Collaboration is Key    
 
-{:.font-heading-xl.margin-y-0"}
 
 Internet Vulnerability Observatoryencourages collaboration from across the infosec community. If you're an independent security researcher, academic institution, or just getting started in cyber security, obsrva has a place for you. Start your journey with obsrva by filling out our form below and a representative will reach out if there open positions available.
 {:.usa-intro }

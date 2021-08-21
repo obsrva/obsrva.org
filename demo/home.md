@@ -3,6 +3,7 @@ title: Home
 permalink: /
 
 layout: home
+tag: cve
 
 hero:
   image: /assets/uswds/img/camera.jpg

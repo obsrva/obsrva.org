@@ -32,13 +32,17 @@ main: foo, bar, qaz
     {% endif %}
 
     {% if page.articles %}
+    {% assign foo = post.tag %}
     <section class="grid-container usa-section">
+      <h1>{{foo}}</h1>
       <div class="grid-row grid-gap">
         <div class="tablet:grid-col-4">
           <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">Latest Products</h2>
         </div>
         <div class="tablet:grid-col-8 usa-prose">
           {% for post in site.posts %}
+            {% if post.tag  == foo % }
+            <h1>foo</h1>
             <div class="card border-light mb-3" style="width: 100%;">
               <div class="card-header">
                 <a href="{{post.url}}" style="color:black;">{{ post.title }}</a>
@@ -51,6 +55,7 @@ main: foo, bar, qaz
               </div>
             </div>
             <br>
+            {% endif %}
           {% endfor %}
         </div>
       </div>
