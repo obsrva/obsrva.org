@@ -29,7 +29,7 @@ primary:
   - text: Projects
     links:
       - text: Project on Vulnerability Discovery
-        href: /pvd
+        href: /discovery
       - text: Vulnerability Research Library
         href: /docs
   - text: Products

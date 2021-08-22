@@ -32,15 +32,17 @@ main: foo, bar, qaz
     {% endif %}
 
     {% if page.articles %}
+    {% assign foo = post.tag %}
     <section class="grid-container usa-section">
+      <h1>{{foo}}</h1>
       <div class="grid-row grid-gap">
         <div class="tablet:grid-col-4">
           <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">Latest Products</h2>
         </div>
         <div class="tablet:grid-col-8 usa-prose">
           {% for post in site.posts %}
-           {% assign foo = post.tag %}
-            {% if post.tag == page.tag %}
+            {% if post.tag  == foo % }
+            <h1>foo</h1>
             <div class="card border-light mb-3" style="width: 100%;">
               <div class="card-header">
                 <a href="{{post.url}}" style="color:black;">{{ post.title }}</a>
@@ -49,6 +51,7 @@ main: foo, bar, qaz
                 <!-- <p class="card-text"><i>{{post.author}} | published {{post.date | date: "%b %d, %y" }}</i></p> -->
                 <p class="card-text">{{ post.lead }}</p>
                 <p class="card-text"><small class="text-muted">{{post.author}} | Published {{post.date | date: "%b %d, %y" }}</small></p>
+
               </div>
             </div>
             <br>
@@ -58,6 +61,7 @@ main: foo, bar, qaz
       </div>
     </section>
     {% endif %}
+
 
     {% capture _graphics %}
       {% include graphic-list-post.html graphics=page.graphics %}
@@ -80,25 +84,17 @@ main: foo, bar, qaz
           <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0" id="{{page.featured | uri_escape }}">Latest Research</h2>
         </div>
         <div class="tablet:grid-col-8 usa-prose">
-          {% for post in site.posts limit:2 %}
-          {% if post.tag == 'cve' %}
-            <div class="card mb-3" style="width: 100%;">
-              <div class="card-header ">{{post.date | date: "%b %d, %y" }} &nbsp&nbsp&nbsp<a href="{{post.url}}">{{ post.title }}</a>
-                <!-- <span style="text-align:right;">
-                  {{post.date | date: "%b %d, %y" }}
-                </span> -->
-              </div>
+          {% for item in site.data.vulnerabilities %}
+            <div class="card border-light mb-3" style="width: 100%;">
+              <div class="card-header">[ {{ item.cve }}] {{ item.title }}</div>
               <div class="card-body">
-                <p class="card-title">
-                  <b>Overview:</b> {{post.lead}}
-                </p>
+                <p class="card-title">{{item.description}}</p>
                 <i class="far fa-file-pdf"></i>
                 <i class="fas fa-external-link-alt"></i>
                 <i class="fas fa-bug"></i>
               </div>
             </div>
             <br>
-            {% endif %}
           {% endfor %}
           <!-- <button type="button" class="usa-button position-relative">
             Read More

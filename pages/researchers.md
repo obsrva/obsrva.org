@@ -1,10 +1,8 @@
 ---
-title: Researchers
+title: Our Team
 layout: page
 permalink: team
 ---
-
-Internet Vulnerability Observatoryis supported by a variety of researchers
 
 <div class="card mb-3" style="width: 100%;">
   <div class="row g-0">
@@ -15,6 +13,13 @@ Internet Vulnerability Observatoryis supported by a variety of researchers
       <div class="card-body">
         <h5 class="card-title"><b>Tyler Butler</b> | Founder & Lead Researcher</h5>
         <p class="card-text">Tyler is the founder and lead researcher at Internet Vulnerability Observatory . He gained his undergraduate degree in Security and Risk Analysis from The Pennsylvania State University and started his cyber security career at Deloitte where he served clients as a penetration tester and red team operator. Tyler currently holds the eWPT and eJPT certifications, is credited with several CVE's including CVE-2021-35956, and was nominated to the Motorola Solutions Bug Bounty Hall of Fame Member.</p>
+        <p>Recent Articles</p>
+          {% for post in site.posts %}
+          {% if post.author == 'Tyler Butler' %}
+            <a href="{{post.url}}">{{post.title}}</a>
+            <br>
+          {% endif %}
+          {% endfor %}
         <i class="fab fa-linkedin-in"></i>
         <i class="fab fa-twitter"></i>
         <i class="fab fa-github"></i>
