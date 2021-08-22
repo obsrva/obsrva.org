@@ -22,7 +22,7 @@ hero:
 
 tagline: Community-Driven Research
 intro: |
-  Obsrva is focused on finding overlooked vulnerabilities, responsibly engaging vendors, and producing easily-consumable products. Researchers on [The Project on Vulnerability Discovery](https://obsrva.org/pvd) choose from a wide range of research topics, and current research is focused on embedded webservers of iOT devices—such as enviormental monitoring systems, printers, and smart home devices.
+  Obsrva is focused on finding overlooked vulnerabilities, responsibly engaging vendors, and producing easily-consumable products. Researchers on [The Project on Vulnerability Discovery](https://obsrva.org/discovery) choose from a wide range of research topics, and current research is focused on embedded webservers of iOT devices—such as enviormental monitoring systems, printers, and smart home devices.
 
 featured: Latest Research
 featured-intro: |
@@ -34,23 +34,23 @@ graphics:
   - image:
       src: 
       alt: 
-    title: Vulnerability Research.
-    description: obsrva finds common [vulnerabilities](javascript:void(0);) in everyday applications, open-source projects on platforms like GitHub and Sourceforge.
+    title: Vulnerability Research 👾
+    description: Obsrva finds common [vulnerabilities](javascript:void(0);) in everyday applications, open-source projects, and iOT and embedded devices.
   - image:
       src: 
       alt: ""
-    title: Responsible Disclosure.
-    description: Researchers engage application and product vendors to notify stakeholders of vulnerabilities and provide mitigation recommendations.
+    title: Responsible Disclosure 🛡
+    description: Researchers engage product vendors to notify stakeholders of vulnerabilities,  provide mitigation recommendations, and coordinate disclosure statements.
   - image:
       src: 
       alt: ""
-    title: Cyber Threat Intelligence.
-    description: obsrva creates custom CTI tools to scan the internet for vulnerable endpoints and notify asset owners of potentially compromised devices.
+    title: Cyber Threat Intelligence 🔮
+    description: Obsrva creates custom CTI tools to scan the internet for vulnerable endpoints and notify asset owners of potentially compromised devices.
   - image:
       src: 
       alt: ""
-    title: Community Focused Support.
-    description: obsrva supports the vulnerability research community through community outreach projects like the Vulnerability Research Library and the CTF Guide (ctfguide.org)
+    title: Community Focused Support 🤝
+    description: Obsrva supports the research community through outreach projects like the Vulnerability Research Library—a library of iOT devices available to loan to independent researchers.
 ---
 
 ## Collaboration is Key    

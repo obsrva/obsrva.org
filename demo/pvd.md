@@ -1,6 +1,6 @@
 ---
 title: Center
-permalink: /pvd
+permalink: /discovery
 
 layout: center
 articles: true

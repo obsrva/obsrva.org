@@ -23,7 +23,7 @@ hero:
 
 tagline: Community-Driven Research
 intro: |
-  Obsrva is focused on finding overlooked vulnerabilities, responsibly engaging vendors, and producing easily-consumable products. Researchers on [The Project on Vulnerability Discovery](https://obsrva.org/pvd) choose from a wide range of research topics, and current research is focused on embedded webservers of iOT devices—such as enviormental monitoring systems, printers, and smart home devices.
+  Obsrva is focused on finding overlooked vulnerabilities, responsibly engaging vendors, and producing easily-consumable products. Researchers on [The Project on Vulnerability Discovery](https://obsrva.org/discovery) choose from a wide range of research topics, and current research is focused on embedded webservers of iOT devices—such as enviormental monitoring systems, printers, and smart home devices.
 
 featured: Latest Research
 featured-intro: |
