@@ -5,6 +5,6 @@
   description: Unauthenticated stored cross-site scripting (XSS) in the embedded webserver of HP OfficeJet 4630 and 7110 Wide Format ePrinter in the printer name and printer location fields.
 - cve: CVE-2021-35956
   title: 	AKCP sensorProbe - 'Multiple' Cross Site Scripting (XSS)
-  link: https://nvd.nist.gov/vuln/detail/CVE-2021-35956
+  link: https://nvd.nist.gov/vuln/detail/advisories-2021-35956
   researcher: "Tyler Butler"
   description: Authenticated stored cross-site scripting (XSS) in the embedded webserver of AKCP sensorProbe before SP480-20210624 enables remote authenticated attackers to introduce arbitrary JavaScript via the Sensor Description, Email (from/to/cc), System Name, and System Location fields.

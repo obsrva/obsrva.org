@@ -18,28 +18,28 @@ primary:
         href: /about
       - text: obsrva Team
         href: /team
-  - text: Topics
-    links:
-      - text: iOT and Embedded Devices
-        href: /cotes
-      - text: Open-Source Applications
-        href: /foo
-      - text: Mainstream Bug Bounty
-        href: /bugbounty
+  # - text: Topics
+  #   links:
+  #     - text: iOT and Embedded Devices
+  #       href: /cotes
+  #     - text: Open-Source Applications
+  #       href: /foo
+  #     - text: Mainstream Bug Bounty
+  #       href: /bugbounty
   - text: Projects
     links:
-      - text: Project on Vulnerability Discovery
+      - text: Vulnerability Discovery
         href: /discovery
-      - text: Vulnerability Research Library
+      - text: Research Library
         href: /docs
   - text: Products
     links:
-      - text: Common Vulnerabilities and Exposure Reports
-        href: /cve
+      - text: Vulnerability Advisories
+        href: /advisories
+      - text: Proof of Concept Exploits
+        href: /exploits
       - text: Responsible Disclosures
-        href: /disclosures
-      - text: CTI Assessments
-        href: /cti
+        href: /disclosure
   - text: Connect
     links:
       - text: Contact
@@ -47,8 +47,6 @@ primary:
       - text: Researchers
         href: /team
     external: false
-  - text: Blog
-    href: /blog
 
 secondary:
   - text: Documentation

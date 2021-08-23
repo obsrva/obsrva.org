@@ -9,8 +9,6 @@ The Internet Vulnerability Observatory (Obsrva) is a vulnerability research proj
 
 ### Obsrva Research Highlights 
 
-**2 CVE's**
-
-1.  CVE-2021-35956 [AKCP sensorProbe - 'Multiple' Cross Site Scripting (XSS)](/about/2021/06/06/CVE-2021-35956.html)
+1.  CVE-2021-35956 [AKCP sensorProbe - 'Multiple' Cross Site Scripting (XSS)](/about/2021/06/06/advisories-2021-35956.html)
 2.  CVE-2021-3441 HP Officejet - 'AirPrint' Cross Site Scripting (XSS)
 
