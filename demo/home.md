@@ -11,8 +11,8 @@ hero:
     alt: "Our Mission"
     text: Find, Triage, Disclose
   button:
-    href: /#Latest%20Research
-    text: Latest Research
+    href: /#Recent%20Advisories
+    text: Recent Advisories
     number: 2+
     enable: true
   link:
@@ -24,9 +24,9 @@ tagline: Community-Driven Research
 intro: |
   Obsrva is focused on finding overlooked vulnerabilities, responsibly engaging vendors, and producing easily-consumable products. Researchers on [The Project on Vulnerability Discovery](https://obsrva.org/discovery) choose from a wide range of research topics, and current research is focused on embedded webservers of iOT devices—such as enviormental monitoring systems, printers, and smart home devices.
 
-featured: Latest Research
+featured: Recent Advisories
 featured-intro: |
-  Our most recent vulnerability disclosures
+  Our most recent vulnerability advisories
 
   
 
@@ -44,8 +44,8 @@ graphics:
   - image:
       src: 
       alt: ""
-    title: Cyber Threat Intelligence 🔮
-    description: Obsrva creates custom CTI tools to scan the internet for vulnerable endpoints and notify asset owners of potentially compromised devices.
+    title: Proof of Concept Exploits 🔮
+    description: Obsrva builds proof of concept exploits for our discovered vulnerabilities, published to Exploit-DB.
   - image:
       src: 
       alt: ""
