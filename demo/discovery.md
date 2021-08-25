@@ -8,9 +8,9 @@ tag: cve
 
 hero:
   image: /assets/uswds/img/cocti.jpg
-  callout:
-    alt: 
-    text: Project on Vulnerability Discovery
+  callout: 
+    alt: "Obsrva"
+    text: Vulnerability Discovery
   button:
     href: /callout/
     text: Latest Products
@@ -18,11 +18,11 @@ hero:
   link:
     text: Link to more about that priority
     href: /link/
-  content: "In 2021, The Project on Vulnerability Discovery is responsible for publishing 2 CVE's, 1 CVE in the pipeline to be disclosed, and several disclosures in open-source and mainstream bug bounty programs"
+  content: "In 2021, Obsrva's Vulnerability Discovery research has been credited with 2 published CVE's, has several CVE's in the pipeline to be disclosed, and has engaged dozens of vendors to remdiate critical vulnerabilities effecting production applications"  
 
-tagline: Community-Driven Research
+tagline: Find, Triage, Disclose
 intro: |
-  obsrva conducts research through two main centers; The Center for iOT and Embedded Device Security (COTEDS) and the Center for Open-Source Threat Intelligence (COSTT). COTEDS leverages the iOT Research Library to obtain, catalog, and find vulnerabilities in iOT and embedded devices, specefically focusing on enviormental monitoring devices. Research in COTEDS identifies vulnerabilities, engages vendors, and coordinates responsible disclosures. COSTT 
+   Obsrva follows industry standards in vulnerability research and responsible disclosure. We work side-by-side with vendors and open source project maintainers alike to ensure timely mitigation and vulnearbility triage, while ensuring open access to advisory and disclosure reports for the community.   
 
 graphics:
   - image:
@@ -59,7 +59,7 @@ graphics:
 
 {:.font-heading-xl.margin-y-0"}
 
-Internet Vulnerability Observatoryencourages collaboration from across the infosec community. If you're an independent security researcher, academic institution, or just getting started in cyber security, obsrva has a place for you. Start your journey with obsrva by filling out our form below and a representative will reach out if there open positions available.
+Obsrva is currently focused on embedded webserver security, including enviormental monitoring systems and other networked iOT devices. 
 {:.usa-intro }
 
 [Get Involved](#){: .usa-button.usa-button--big }

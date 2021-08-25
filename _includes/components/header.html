@@ -16,12 +16,12 @@
         <a
           href="{% if header.href %}{{ header.href }}{% else %}{{ site.baseurl }}/{% endif %}"
           title="Home">
-          {% if header.logo %}
+          <!-- {% if header.logo %}
             <img
               class="usa-logo-img"
-              src="{% if header.logo.external %}{{ header.logo.src }}{% else %}{{ header.logo.src | relative_url }}{% endif %}"
+              src="/assets/img/obsrva.svg"
               alt="{{ header.logo.alt }}">
-          {% endif %}
+          {% endif %} -->
           <em class="usa-logo__text">
             {{ header.title | default: site.title }}
           </em>
