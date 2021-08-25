@@ -58,7 +58,7 @@ graphics:
 
 {:.font-heading-xl.margin-y-0"}
 
-Internet Vulnerability Observatoryencourages collaboration from across the infosec community. If you're an independent security researcher, academic institution, or just getting started in cyber security, obsrva has a place for you. Start your journey with obsrva by filling out our form below and a representative will reach out if there open positions available.
+Obsrva is currently focused on embedded webserver security, including enviormental monitoring systems and other networked iOT devices. 
 {:.usa-intro }
 
 [Get Involved](#){: .usa-button.usa-button--big }

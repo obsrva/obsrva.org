@@ -6,23 +6,13 @@ permalink: contact
 
 
 <div class="container">
-  <form action="action_page.php">
-
+  <form name="contact" method="POST" data-netlify="true">
     <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="usa">USA</option>
-    </select>
-
+    <input type="text" name="name" class="form-control" id="inputForName"  placeholder="Your name..">
+    <label for="Email">Email</label>
+    <input type="email" placeholder="Your Email" name="email" class="form-control" id="inputforEmail">
     <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
+    <textarea type="message" placeholder="Your Message" name="message" class="form-control" id="inputforMessage" style="height:200px"></textarea>
     <input type="submit" value="Submit">
-
   </form>
 </div>

@@ -37,8 +37,8 @@ heading: Internet Vulnerability Observatory
 # Configuration for agency logo(s) (shown side by side).
 # If the logo is external add external: true
 logos:
-  - src: https://18f.gsa.gov/assets/img/logos/18f-logo.svg
-    alt: 18F
+  - src: 
+    alt: 
     external: true
 
 # Configuration for footer contact links
@@ -46,27 +46,27 @@ contact:
   # Configuration for social media links
   # Comment out links you don't want to use (RSS is an example)
   social_links:
-    - text: Facebook
-      href: https://facebook.com
-      external: true
-      type: facebook
-      awesome: "fab fa-facebook-square"
+    # - text: Facebook
+    #   href: https://facebook.com
+    #   external: true
+    #   type: facebook
+    #   awesome: "fab fa-facebook-square"
     - text: Twitter
       href: https://twitter.com
       external: true
       type: twitter
-    - text: YouTube
-      href: https://youtube.com
-      external: true
-      type: youtube
+    # - text: YouTube
+    #   href: https://youtube.com
+    #   external: true
+    #   type: youtube
   # - text: RSS Feed
   #   href: https://usa.gov/
   #   external: true
   #   type: rss
-  heading: Internet Vulnerability Observatory
+  heading: Contact Us
   # Configuration for contact links for email, phone, etc...
   contact_links:
-    - text: 800-555-5555
-      href: tel:1-800-555-5555
+    # - text: 800-555-5555
+    #   href: tel:1-800-555-5555
     - text: contact@obsrva.org
       href: mailto:contact@obsrva.org

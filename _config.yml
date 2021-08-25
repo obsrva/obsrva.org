@@ -4,7 +4,7 @@ description: Vulnerability and Responsible Disclosure Lab
 # GitHub information
 # This is used for adding an edit this page link to the footer
 github_info:
-  organization: 18F
+  organization: Obsrva
   repository: uswds-jekyll
   default_branch: main
 

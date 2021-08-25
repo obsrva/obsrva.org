@@ -18,11 +18,12 @@ hero:
   link:
     text: Link to more about that priority
     href: /link/
-  content: The Internet Vulnerability Observatory (Obsrva) conducts vulnearbility research, engages vendors to remediate problems, discloses issues for peer review, and runs outreach projects for independent  researchers
+  content: The Internet Vulnerability Observatory (Obsrva) conducts vulnerability research, creates proof of concept exploits, and publishes advisories for iOT and embedded devices, open-source projects, and web application.  
 
 tagline: Community-Driven Research
 intro: |
-  Obsrva is focused on finding overlooked vulnerabilities, responsibly engaging vendors, and producing easily-consumable products. Researchers on [The Project on Vulnerability Discovery](https://obsrva.org/discovery) choose from a wide range of research topics, and current research is focused on embedded webservers of iOT devices—such as enviormental monitoring systems, printers, and smart home devices.
+  Obsrva follows industry standards in vulnerability research and responsible disclosure. We work side-by-side with vendors and open source project maintainers alike to ensure timely mitigation and vulnearbility triage, while ensuring open access to advisory and disclosure reports for the community.
+
 
 featured: Recent Advisories
 featured-intro: |
@@ -53,10 +54,10 @@ graphics:
     description: Obsrva supports the research community through outreach projects like the Vulnerability Research Library—a library of iOT devices available to loan to independent researchers.
 ---
 
-## Collaboration is Key    
+## 2021 Focus  🎯    
 
 
-Internet Vulnerability Observatoryencourages collaboration from across the infosec community. If you're an independent security researcher, academic institution, or just getting started in cyber security, obsrva has a place for you. Start your journey with obsrva by filling out our form below and a representative will reach out if there open positions available.
+Obsrva is currently focused on embedded webserver security, including enviormental monitoring systems and other networked iOT devices. 
 {:.usa-intro }
 
 [Get Involved](#){: .usa-button.usa-button--big }
