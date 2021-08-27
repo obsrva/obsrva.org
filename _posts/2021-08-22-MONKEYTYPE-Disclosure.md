@@ -10,7 +10,7 @@ tag: disclosure
 advisory: 
 
 hero:
-  image: /assets/uswds/img/camera.jpg
+  image: /assets/uswds/img/camera.png
   callout:
     alt: "MonkeyType.com"
     text: "Stored Cross-Site Scripting"

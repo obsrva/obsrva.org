@@ -1,9 +1,9 @@
 primary:
   - text: About
     links:
-      - text: About obsrva
+      - text: About Us
         href: /about
-      - text: obsrva Team
+      - text: The Team
         href: /team
   - text: Projects
     links:
@@ -21,9 +21,9 @@ primary:
         href: /disclosure
   - text: Connect
     links:
-      - text: Contact
+      - text: Contact Us
         href: /contact
-      - text: Researchers
+      - text: The Team
         href: /team
     external: false
 
