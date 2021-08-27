@@ -6,7 +6,7 @@ layout: home
 tag: cve
 
 hero:
-  image: /assets/uswds/img/camera.jpg
+  image: /assets/uswds/img/camera.png
   callout:
     alt: "Our Mission"
     text: Find, Triage, Disclose

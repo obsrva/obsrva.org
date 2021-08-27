@@ -129,9 +129,9 @@ main: foo, bar, qaz
         <div class="tablet:grid-col-8 usa-prose">
           {% for post in site.posts %}
           {% if post.tag == 'cve' %}
-            <img src="{{post.img}}"  class="card-img-top" alt="...">
+            <img src="{{post.img}}"  class="card-img-top rounded" style="border: #162e51 1px solid;" alt="...">
             <div class="card-body">
-              <h5 class="card-title"><a href="{{post.url}}" style="color:black;">{{ post.title }}</a>              &nbsp&nbsp <span class="badge bg-dark">{{post.cve}}</span> 
+              <h5 class="card-title"><a href="{{post.url}}" style="color:black;">{{ post.title }}</a>              &nbsp&nbsp <span class="badge bg-fun" style="background-color:#162e51;">{{post.cve}}</span> 
               </h5>
               {% if post.nist %}
               <a href="{{post.nist}}"><i class="fas fa-external-link-alt"></i></a>

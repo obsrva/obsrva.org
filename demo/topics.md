@@ -7,7 +7,7 @@ articles: true
 tag: cve
 
 hero:
-  image: /assets/uswds/img/camera.jpg
+  image: /assets/uswds/img/camera.png
   callout:
     alt: "Topics Home"
     text: Find, Triage, Disclose

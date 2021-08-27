@@ -4,7 +4,7 @@ layout: post
 permalink: about
 ---
 
-
+<i class="fas fa-quote-left fa-2x fa-pull-left"></i>
 *The Internet Observatory (Obsrva) is a vulnerability research project founded by independent security researcher [Tyler Butler](https://tbutler.org). Obsrva engages product vendors in coordinated disclosures, publishes vulnerability advisories, and creates proof of concept exploits.*
 
 ## Coordinated Disclosures  
