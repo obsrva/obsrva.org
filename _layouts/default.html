@@ -35,25 +35,72 @@ main: foo, bar, qaz
     <section class="grid-container usa-section">
       <div class="grid-row grid-gap">
         <div class="tablet:grid-col-4">
-          <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">Latest Products</h2>
+          <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">Featured Advisories</h2>
         </div>
         <div class="tablet:grid-col-8 usa-prose">
           {% for post in site.posts %}
            {% assign foo = post.tag %}
             {% if post.tag == page.tag %}
-            <div class="card border-light mb-3" style="width: 100%;">
-              <div class="card-header">
-                <a href="{{post.url}}" style="color:black;">{{ post.title }}</a>
-              </div>
-              <div class="card-body">
-                <!-- <p class="card-text"><i>{{post.author}} | published {{post.date | date: "%b %d, %y" }}</i></p> -->
-                <p class="card-text">{{ post.lead }}</p>
-                <p class="card-text"><small class="text-muted">{{post.author}} | Published {{post.date | date: "%b %d, %y" }}</small></p>
-              </div>
+            <img src="{{post.img}}"  class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">[{{post.cve}}] <a href="{{post.url}}" style="color:black;">{{ post.title }}</a></h5>
+              {% if post.nist %}
+              <a href="{{post.nist}}"><i class="fas fa-external-link-alt"></i></a>
+              {% endif %}
+              {% if post.exploit_db %}
+              <a href="{{post.exploit_db}}"><i class="fas fa-book-dead"></i></a>
+              {% endif %}
+              <p class="card-text">{{post.lead}}</p>
+              <p class="card-text"><small class="text-muted">Published {{post.date | date: "%b %d, %y"}}</small></p>
             </div>
             <br>
             {% endif %}
           {% endfor %}
+        </div>
+      </div>
+    </section>
+    <section class="grid-container usa-section">
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-4">
+          <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">All Advisories</h2>
+        </div>
+        <div class="tablet:grid-col-8 usa-prose">
+        <!-- Start of Advisory Group -->
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <strong>[CVE-2021-3441]  &nbsp</strong>  HP Officejet - ‘AirPrint’ Cross Site Scripting (XSS)
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <br>
+                  <p><strong>Overview:</strong> Stored cross-site scripting (XSS) in the embedded webserver of certain HP OfficeJet Printers—including the 4630 e-All-in-One Printer and 7110 Wide Format ePrinter— enables remote unauthenticated attackers to introduce arbitrary JavaScript via the <code>printer name</code> and <code>printer location</code> fields.</p>
+                  <p> <strong>Credit: </strong> Tyler Butler</p>
+                  <p> <strong>Disclosure Date: </strong>2021-08-22</p>
+                  <p><strong> Advisory Link: </strong> <a href="/about/2021/08/22/CVE-2021-3441.html">CVE-2021-3441</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <strong>[CVE-2021-35956]  &nbsp</strong> AKCP sensorProbe - 'Multiple' Cross Site Scripting (XSS)
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <br>
+                  <p><strong>Overview:</strong> Stored cross-site scripting (XSS) in the embedded webserver of AKCP sensorProbe before SP480-20210624 enables remote authenticated attackers to introduce arbitrary JavaScript via the <code>Sensor Description</code>, <code>Email (from/to/cc)</code>, <code>System Name</code>, and <code>System Location</code> fields.</p>
+                  <p> <strong>Credit: </strong> Tyler Butler</p>
+                  <p> <strong>Disclosure Date: </strong> 2021-06-06</p>
+                  <p><strong> Advisory Link: </strong> <a href="/about/2021/06/06/CVE-2021-35956.html">CVE-2021-35956</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of Advisory Group -->
         </div>
       </div>
     </section>
@@ -82,21 +129,35 @@ main: foo, bar, qaz
         <div class="tablet:grid-col-8 usa-prose">
           {% for post in site.posts %}
           {% if post.tag == 'cve' %}
-            <div class="card mb-3" style="width: 100%;">
-              <div class="card-header ">{{post.date | date: "%b %d, %y" }} &nbsp&nbsp&nbsp<a href="{{post.url}}">{{ post.title }}</a>
-                <!-- <span style="text-align:right;">
-                  {{post.date | date: "%b %d, %y" }}
-                </span> -->
-              </div>
-              <div class="card-body">
-                <p class="card-title">
-                  <b>Overview:</b> {{post.lead}}
-                </p>
-                <i class="far fa-file-pdf"></i>
-                <i class="fas fa-external-link-alt"></i>
-                <i class="fas fa-bug"></i>
-              </div>
+            <img src="{{post.img}}"  class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"><a href="{{post.url}}" style="color:black;">{{ post.title }}</a>              &nbsp&nbsp <span class="badge bg-dark">{{post.cve}}</span> 
+              </h5>
+              {% if post.nist %}
+              <a href="{{post.nist}}"><i class="fas fa-external-link-alt"></i></a>
+              {% endif %}
+              {% if post.exploit_db %}
+              <a href="{{post.exploit_db}}"><i class="fas fa-book-dead"></i></a>
+              {% endif %}
+              <p class="card-text">{{post.lead}}</p>
+              <p class="card-text"><small class="text-muted">Published {{post.date | date: "%b %d, %y"}}</small></p>
             </div>
+            <!-- <div class="card mb-3" style="width: 100%;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/assets/img/mahrous-houses-5AoOejjRUrA-unsplash.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="{{post.url}}">{{ post.title }}</a></h5>
+                    <p class="card-text">{{post.lead}}</p>
+                    <i class="far fa-file-pdf"></i>
+                    <i class="fas fa-external-link-alt"></i>
+                    <i class="fas fa-bug"></i>
+                  </div>
+                </div>
+              </div>
+            </div> -->
             <br>
             {% endif %}
           {% endfor %}
