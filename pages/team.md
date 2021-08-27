@@ -11,13 +11,13 @@ permalink: team
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title"><b>Tyler Butler</b> | Founder & Lead Researcher</h5>
+        <h5 class="card-title"><b>Tyler Butler</b> | <small class="text-muted">Founder & Lead Researcher</small></h5>
         <!-- <i class="fab fa-linkedin-in"></i>
         <i class="fab fa-twitter"></i>
         <i class="fab fa-github"></i>
         <i class="fas fa-envelope-open"></i> -->
-        <p class="card-text">Tyler is the founder and lead researcher at Internet Vulnerability Observatory . He gained his undergraduate degree in Security and Risk Analysis from The Pennsylvania State University and started his cyber security career at Deloitte where he served clients as a penetration tester and red team operator. Tyler currently holds the eWPT and eJPT certifications, is credited with several CVE's including CVE-2021-35956, and was nominated to the Motorola Solutions Bug Bounty Hall of Fame Member.</p>
-        <p><strong>Recent Articles</strong></p>
+        <p class="card-text">Tyler gained his undergraduate degree in Security and Risk Analysis from The Pennsylvania State University and started his cyber security career at Deloitte where he served clients as a penetration tester and red team operator. Tyler currently holds the eWPT and eJPT certifications, is credited with several CVE's including CVE-2021-35956 and CVE-2021-3441, and was nominated to the Motorola Solutions Bug Bounty Hall of Fame.</p>
+        <p><i>Recent Research</i></p>
           <!-- {% for post in site.posts %}
           {% if post.author == 'Tyler Butler' %}
             <a href="{{post.url}}" style="color:black;">{{post.title}}</a>
@@ -29,11 +29,10 @@ permalink: team
           {% if post.author == 'Tyler Butler' %}
           <a href="{{post.url}}" class="list-group-item list-group-item-action border-0" aria-current="true">
             <div class="d-flex w-100 justify-content-between border-0">
-              <h5 class="mb-1">{{post.title}}</h5>
+              <h5 class="mb-1"><strong>{{post.title}}</strong></h5>
               <small>{{post.date |  date: "%b %d, %y"}}</small>
             </div>
             <p class="mb-1">{{post.lead | truncate: 80}}</p>
-            <small>And some small print.</small>
           </a>
              {% endif %}
           {% endfor %}
