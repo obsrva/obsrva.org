@@ -8,6 +8,8 @@ github_info:
   repository: uswds-jekyll
   default_branch: main
 
+url: https://obsrva.org
+
 
 # Configuration for setting the site width to 100%
 # To enable, uncomment the following line
