@@ -1,9 +1,13 @@
 
 # The Internet Observatory   
 
+![](/assets/img/obsrva.png)  
+
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ca521e66-2924-4e28-9144-c223ccd4df44/deploy-status)](https://app.netlify.com/sites/hungry-agnesi-8393b7/deploys)  
 
 *The Internet Observatory (Obsrva) is a vulnerability research project founded by independent security researcher [Tyler Butler](https://tbutler.org). Obsrva engages product vendors in coordinated disclosures, publishes vulnerability advisories, and creates proof of concept exploits.*
+
 
 ## Coordinated Disclosures  
 Obsrva engages vendors of hardware, software, and internet-based services in coordinated disclosures after the discovery of vulnerabilities effecting their products. Following industry standards, vendors are provided identification of the vulnerability, statements addressing impact, and mitigation recommendations.  
