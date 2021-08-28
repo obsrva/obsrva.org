@@ -40,7 +40,7 @@ If you're interested in using one of the devices in the library for research, pl
 
 
 
- <form name="contact" method="POST" data-netlify="true">
+ <form name="library" method="POST" data-netlify="true">
     <div class="mb-3">
       <label for="fname" class="form-label">Name</label>
       <input type="name" class="form-control" id="inputForName" placeholder="Tyler Butler" name="name">
