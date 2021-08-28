@@ -43,7 +43,7 @@ If you're interested in using one of the devices in the library for research, pl
  <form name="contact" method="POST" data-netlify="true">
     <div class="mb-3">
       <label for="fname" name="name"  class="form-label">Name</label>
-      <input type="email" class="form-control" id="inputForName" placeholder="name@example.com">
+      <input type="fname" class="form-control" id="inputForName" placeholder="Tyler Butler">
     </div>
     <div class="mb-3">
       <label for="Email" name="email" class="form-label">Email</label>
