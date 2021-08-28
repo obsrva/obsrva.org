@@ -2,6 +2,21 @@
 title: Our Team
 layout: page
 permalink: team
+
+hero:
+  image: /assets/uswds/img/camera.png
+  callout:
+    alt: "Obsrva"
+    text: Research Team
+  button:
+    href: 
+    text: 
+    number: 
+    enable: false
+  link:
+    text: Link to more about that priority
+    href: /link/
+  content: 
 ---
 
 <div class="card mb-3 border-0" style="width: 100%;">
@@ -17,7 +32,7 @@ permalink: team
         <i class="fab fa-github"></i>
         <i class="fas fa-envelope-open"></i> -->
         <p class="card-text">Tyler gained his undergraduate degree in Security and Risk Analysis from The Pennsylvania State University and started his cyber security career at Deloitte where he served clients as a penetration tester and red team operator. Tyler currently holds the eWPT and eJPT certifications, is credited with several CVE's including CVE-2021-35956 and CVE-2021-3441, and was nominated to the Motorola Solutions Bug Bounty Hall of Fame.</p>
-        <p><i>Recent Research</i></p>
+        <p><i>Recent Publications</i></p>
           <!-- {% for post in site.posts %}
           {% if post.author == 'Tyler Butler' %}
             <a href="{{post.url}}" style="color:black;">{{post.title}}</a>
@@ -25,7 +40,7 @@ permalink: team
           {% endif %}
           {% endfor %} -->
           <div class="list-group border-0">
-          {% for post in site.posts %}
+          {% for post in site.posts limit:5 %}
           {% if post.author == 'Tyler Butler' %}
           <a href="{{post.url}}" class="list-group-item list-group-item-action border-0" aria-current="true">
             <div class="d-flex w-100 justify-content-between border-0">

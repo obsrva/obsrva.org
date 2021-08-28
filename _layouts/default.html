@@ -35,23 +35,22 @@ main: foo, bar, qaz
     <section class="grid-container usa-section">
       <div class="grid-row grid-gap">
         <div class="tablet:grid-col-4">
-          <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">Featured Advisories</h2>
+          <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0">Featured Research</h2>
         </div>
         <div class="tablet:grid-col-8 usa-prose">
           {% for post in site.posts %}
            {% assign foo = post.tag %}
             {% if post.tag == page.tag %}
-            <img src="{{post.img}}"  class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">[{{post.cve}}] <a href="{{post.url}}" style="color:black;">{{ post.title }}</a></h5>
-              {% if post.nist %}
-              <a href="{{post.nist}}"><i class="fas fa-external-link-alt"></i></a>
-              {% endif %}
-              {% if post.exploit_db %}
-              <a href="{{post.exploit_db}}"><i class="fas fa-book-dead"></i></a>
-              {% endif %}
-              <p class="card-text">{{post.lead}}</p>
-              <p class="card-text"><small class="text-muted">Published {{post.date | date: "%b %d, %y"}}</small></p>
+            <div class="hov">
+              <a href="{{post.url}}">
+                <img src="{{post.img}}"  class="card-img-top rounded" alt="{{post.title}}">
+                  <div class="card-body">
+                    <h5 class="card-title"><a href="{{post.url}}" style="color:black;text-decoration: none;"><b>{{ post.title }}</b></a> &nbsp&nbsp <span class="badge bg-fun" style="background-color:#162e51;">{{post.cve}}</span> 
+                    </h5>
+                    <p class="card-text">{{post.lead}}</p>
+                    <p class="card-text"><small class="text-muted">Published {{post.date | date: "%b %d, %y"}}</small></p>
+                  </div>
+              </a>
             </div>
             <br>
             {% endif %}
@@ -124,24 +123,29 @@ main: foo, bar, qaz
     <section class="grid-container usa-section">
       <div class="grid-row grid-gap" >
         <div class="tablet:grid-col-4">
-          <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0" id="{{page.featured | uri_escape }}">Recent Advisories</h2>
+          <h2 class="font-heading-xl margin-top-0 tablet:margin-bottom-0" id="{{page.featured | uri_escape }}">Recent Research</h2>
+          <p class="text-muted">Our most recent research focuses on internet of things and embedded webserver security. </p>
         </div>
         <div class="tablet:grid-col-8 usa-prose">
           {% for post in site.posts %}
           {% if post.tag == 'cve' %}
-            <img src="{{post.img}}"  class="card-img-top rounded" style="border: #162e51 1px solid;" alt="...">
-            <div class="card-body">
-              <h5 class="card-title"><a href="{{post.url}}" style="color:black;">{{ post.title }}</a>              &nbsp&nbsp <span class="badge bg-fun" style="background-color:#162e51;">{{post.cve}}</span> 
-              </h5>
-              {% if post.nist %}
-              <a href="{{post.nist}}"><i class="fas fa-external-link-alt"></i></a>
-              {% endif %}
-              {% if post.exploit_db %}
-              <a href="{{post.exploit_db}}"><i class="fas fa-book-dead"></i></a>
-              {% endif %}
-              <p class="card-text">{{post.lead}}</p>
-              <p class="card-text"><small class="text-muted">Published {{post.date | date: "%b %d, %y"}}</small></p>
-            </div>
+          <div class="hov">
+            <a href="{{post.url}}">
+              <img src="{{post.img}}"  class="card-img-top rounded" alt="{{post.title}}">
+                <div class="card-body">
+                  <h5 class="card-title"><a href="{{post.url}}" style="color:black;text-decoration: none;"><b>{{ post.title }}</b></a> &nbsp&nbsp <span class="badge bg-fun" style="background-color:#162e51;">{{post.cve}}</span> 
+                  </h5>
+                  <!-- {% if post.nist %}
+                  <a href="{{post.nist}}"><i class="fas fa-external-link-alt"></i></a>
+                  {% endif %}
+                  {% if post.exploit_db %}
+                  <a href="{{post.exploit_db}}"><i class="fas fa-book-dead"></i></a>
+                  {% endif %} -->
+                  <p class="card-text">{{post.lead}}</p>
+                  <p class="card-text"><small class="text-muted">Published {{post.date | date: "%b %d, %y"}}</small></p>
+                </div>
+            </a>
+          </div>
             <!-- <div class="card mb-3" style="width: 100%;">
               <div class="row g-0">
                 <div class="col-md-4">

@@ -2,6 +2,21 @@
 title: Vulnerability Advisories
 layout: post
 permalink: advisories
+
+hero:
+  image: /assets/uswds/img/camera.png
+  callout:
+    alt: "Obsrva"
+    text: Vulnerability Advisories
+  button:
+    href: 
+    text: 
+    number: 
+    enable: false
+  link:
+    text: Link to more about that priority
+    href: /link/
+  content: Obsrva coordinates with product vendors to publish vulnerability advisories on obsrva.org/advisories. Advisories allow customers, blue and red team operators, and the broader research community to access technical details and research methodology.
 ---
 
 <section class="grid-container usa-section">

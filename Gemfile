@@ -5,5 +5,7 @@ group :jekyll_plugins do
   # Only put the optional plugins here. Required plugins should go in the gemspec.
   gem 'jekyll-last-modified-at', '>= 1.3.0'
   gem 'jekyll'
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-tagging'
 end
 

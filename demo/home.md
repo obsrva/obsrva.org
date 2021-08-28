@@ -22,7 +22,7 @@ hero:
 
 tagline: Securing the Net
 intro: |
-  Obsrva engages vendors of hardware, software, and internet-based services in coordinated disclosures after the discovery of vulnerabilities effecting their products. Following industry standards, vendors are provided identification of the vulnerability, statements addressing impact, and mitigation recommendations. 
+  <i class="fas fa-quote-left fa-2x fa-pull-left"></i> Obsrva engages vendors of hardware, software, and internet-based services in coordinated disclosures after the discovery of vulnerabilities effecting their products. Following industry standards, vendors are provided identification of the vulnerability, statements addressing impact, and mitigation recommendations. 
 
 
 featured: Recent Advisories
@@ -35,8 +35,8 @@ graphics:
   - image:
       src: 
       alt: ""
-    title: Coordinated Disclosure 🤝
-    description: Obsrva engages vendors of hardware, software, and internet-based services in coordinated disclosures after the discovery of vulnerabilities effecting their products. Following industry standards, vendors are provided identification of the vulnerability, statements addressing impact, and mitigation recommendations. .
+    title: Coordinated Disclosure 🤝 
+    description: Obsrva engages vendors of hardware, software, and internet-based services in coordinated disclosures after the discovery of vulnerabilities effecting their products. Following industry standards, vendors are provided identification of the vulnerability, statements addressing impact, and mitigation recommendations.
   - image:
       src: 
       alt: ""

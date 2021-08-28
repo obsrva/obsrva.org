@@ -1,5 +1,7 @@
 
-# The Internet Observatory 
+# The Internet Observatory   
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ca521e66-2924-4e28-9144-c223ccd4df44/deploy-status)](https://app.netlify.com/sites/hungry-agnesi-8393b7/deploys)  
 
 *The Internet Observatory (Obsrva) is a vulnerability research project founded by independent security researcher [Tyler Butler](https://tbutler.org). Obsrva engages product vendors in coordinated disclosures, publishes vulnerability advisories, and creates proof of concept exploits.*
 
@@ -25,3 +27,12 @@ Obsrva develops proof of concept exploits for discovered vulnerabilities and pub
 ### Research Library  
 Obsrva maintains the iOT Research Library, a collection of iOT and embedded devices available for loan by independent security researchers. The library provides access to unique, EOL, or other devices no longer under active research by Obsrva. 
 
+
+
+## Credit 
+
+Obsrva would like to thank the following for open source and public domain assets used on obsrva.org 
+
+1.  **[18F](https://github.com/18F/uswds-jekyll):**  A Jekyll theme showcase used as a template for obsrva.org.  
+
+2. **[@matthewhenry](https://unsplash.com/@matthewhenry):** matthewhenry is a videographer (vimeo.com/mtthwhnry) & photographer for Shopify located in Toronto, Canada whoose images are used on obsrva.org.  

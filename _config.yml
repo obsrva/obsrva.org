@@ -10,6 +10,18 @@ github_info:
 
 url: https://obsrva.org
 
+social:
+  name: Tyler Butler
+  links:
+    - https://twitter.com/tcbutler0x90
+    - https://www.linkedin.com/in/tyler-b-a700a1aa/
+    - https://github.com/tcbutler320
+    - https://keybase.io/tcbutler320
+
+twitter:
+  username: tbutler0x90
+  card: summary
+
 
 # Configuration for setting the site width to 100%
 # To enable, uncomment the following line
@@ -24,12 +36,12 @@ url: https://obsrva.org
 
 # Uncomment to enable AnchorJS functionality on docs layout.
 # See https://github.com/bryanbraun/anchorjs for more information.
-# anchor_js_targets: [h1, h2, h3, h4, h5, h6]
+anchor_js_targets: [h1, h2, h3, h4, h5, h6]
 
 # Enables Private Eye functionality.
 # See https://github.com/18F/private-eye for more information.
 # Private Eye configuration is in assets/js/main.js
-private_eye: true
+#private_eye: true
 
 # To enable search, uncomment the search section
 # You will need to setup a search account with search.gov
@@ -59,3 +71,6 @@ autoprefixer:
     - last 2 versions
     - IE 11
     - not dead
+
+  plugins:
+    - jekyll-seo-tag
