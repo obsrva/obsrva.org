@@ -42,12 +42,12 @@ If you're interested in using one of the devices in the library for research, pl
 
  <form name="contact" method="POST" data-netlify="true">
     <div class="mb-3">
-      <label for="fname" name="name"  class="form-label">Name</label>
-      <input type="fname" class="form-control" id="inputForName" placeholder="Tyler Butler">
+      <label for="fname" class="form-label">Name</label>
+      <input type="name" class="form-control" id="inputForName" placeholder="Tyler Butler" name="name">
     </div>
     <div class="mb-3">
-      <label for="Email" name="email" class="form-label">Email</label>
-      <input type="email" class="form-control" id="inputforEmail" placeholder="name@example.com">
+      <label for="Email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputforEmail" placeholder="name@example.com"  name="email" >
     </div>
       <div class="mb-3">
       <label for="Device" name="device" class="form-label">Device</label>
