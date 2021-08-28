@@ -2,6 +2,21 @@
 title: Responsible Disclosures
 layout: post
 permalink: disclosure
+
+hero:
+  image: /assets/uswds/img/camera.png
+  callout:
+    alt: "Obsrva"
+    text: Responsible Disclosures
+  button:
+    href: 
+    text: 
+    number: 
+    enable: false
+  link:
+    text: Link to more about that priority
+    href: /link/
+  content: Obsrva engages vendors of hardware, software, and internet-based services in coordinated disclosures after the discovery of vulnerabilities effecting their products. Following industry standards, vendors are provided identification of the vulnerability, statements addressing impact, and mitigation recommendations.
 ---
 
 

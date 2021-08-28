@@ -9,8 +9,8 @@ primary:
     links:
       - text: Vulnerability Discovery
         href: /discovery
-      - text: Research Library
-        href: /docs
+      - text: Vulnerability Research Library
+        href: /library
   - text: Products
     links:
       - text: Vulnerability Advisories
@@ -28,28 +28,24 @@ primary:
     external: false
 
 secondary:
-  - text: Documentation
-    href: /docs/
-  - text: <i class="fab fa-facebook-square"></i>
-    href: /theme/
-  - text: <i class="fab fa-twitter-square"></i>
-    href: /theme/
-  - text: <i class="fab fa-linkedin"></i>
-    href: /theme/
+  - text: Vuln Research Library
+    href: /library/
   - text: <i class="fab fa-github-square"></i>
-    href: /theme/
-
-docs:
-  - text: Sidenav Documentation
-    href: /docs/
-  - text: Sidenav External link
-    href: https://obsrva.org
+    href: https://github.com/obsrva
     external: true
 
+library:
+  - text: Library Resources
+    href: /library/
+  - text: Legacy Site
+    href: https://iotrl.org
+    external: true
+
+
 footer:
-  - text: Advisories
+  - text: Vulnerability Advisories
     href: /Advisories/
-  - text: Exploits
+  - text: Proof of Concept Exploits
     href: /exploits/
-  - text: Disclosures
+  - text: Coordinated Disclosures
     href: /disclosure/
