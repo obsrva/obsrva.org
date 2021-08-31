@@ -15,12 +15,13 @@ main:
       {% endif %}
 
       <main class="usa-layout-docs usa-layout-docs__main usa-prose{% if sidenav %} desktop:grid-col-9{% endif %}" id="main-content">
-        {% if page.title %}
-          <h1>{{ page.title }}</h1>
-        {% endif %}
-        {% if page.author %}
-          <p>By: {{page.author}} | <i>{{page.date | date: "%b %d, %y"}}</i></p>
-        {% endif %}
+        <div class="card border-0" style="width: 100%;">
+          <div class="card-body">
+            <h1 class="card-title">{{ page.title }}</h1>
+            <h5 class="card-subtitle mb-2 text-muted">{{page.author}} | {{page.date | date: "%b %d, %y"}}
+            </h5>
+          </div>
+        </div>         
         {{ content }}
       </main>
     </div>
