@@ -15,13 +15,23 @@ main:
       {% endif %}
 
       <main class="usa-layout-docs usa-layout-docs__main usa-prose{% if sidenav %} desktop:grid-col-9{% endif %}" id="main-content">
-        <div class="card border-0" style="width: 100%;">
-          <div class="card-body">
-            <h1 class="card-title">{{ page.title }}</h1>
-            <h5 class="card-subtitle mb-2 text-muted">{{page.author}} | {{page.date | date: "%b %d, %y"}}
-            </h5>
+          <div class="card mb-3 border-0" style="width: 100%;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="{{page.img}}" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h2 class="card-title"><a href="{{page.url}}" style="color:black;text-decoration: none;"><b>{{ page.title }}</b></a> &nbsp&nbsp <span class="badge bg-fun" style="background-color:#162e51;">{{page.cve}}</span> </h2>
+                  <br> 
+                  <img class="postar" style='vertical-align:middle;' src='https://res.cloudinary.com/tbutler-org/image/upload/v1625867137/me_roxdid.png'>
+                    <div style='vertical-align:middle; display:inline;' class="text-muted">
+                    By Tyler Butler, {{page.date | date: "%b %d, %Y"}}
+                    </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>         
         {{ content }}
       </main>
     </div>
