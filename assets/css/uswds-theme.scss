@@ -260,3 +260,48 @@ background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox=
   transform: scale(1.10);
 }
 
+
+
+
+.avatar {
+  /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+  background-image: url('https://res.cloudinary.com/tbutler-org/image/upload/v1625867137/me_roxdid.png');
+  
+  /* make a square container */
+  width: 35px;
+  height: 35px;
+
+  vertical-align:middle;
+
+  /* fill the container, preserving aspect ratio, and cropping to fit */
+  background-size: cover;
+
+  /* center the image vertically and horizontally */
+  background-position: top center;
+
+  /* round the edges to a circle with border radius 1/2 container size */
+  border-radius: 50%;
+  border:#00bde3 1px solid;
+}
+
+.avatar:hover{
+  transform: scale(1.5);
+}
+
+
+.postar {
+  background-image: url('https://res.cloudinary.com/tbutler-org/image/upload/v1625867137/me_roxdid.png');
+  
+  /* make a square container */
+  width: 35px;
+  height: 35px;
+
+  border-radius: 50%;
+  border:#00bde3 1px solid;
+
+
+}
+
+.postar:hover{
+  transform: scale(2);
+}

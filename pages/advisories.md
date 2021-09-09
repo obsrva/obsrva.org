@@ -39,7 +39,7 @@ hero:
                 <p><strong>Overview:</strong> Stored cross-site scripting (XSS) in the embedded webserver of certain HP OfficeJet Printers—including the 4630 e-All-in-One Printer and 7110 Wide Format ePrinter— enables remote unauthenticated attackers to introduce arbitrary JavaScript via the <code>printer name</code> and <code>printer location</code> fields.</p>
                 <p> <strong>Credit: </strong> Tyler Butler</p>
                 <p> <strong>Disclosure Date: </strong>2021-08-22</p>
-                <p><strong> Advisory Link: </strong> <a href="/about/2021/08/22/CVE-2021-3441.html">CVE-2021-3441</a></p>
+                <p><strong> Advisory Link: </strong> <a href="/2021/08/22/CVE-2021-3441.html">CVE-2021-3441</a></p>
             </div>
             </div>
         </div>
@@ -55,7 +55,7 @@ hero:
                 <p><strong>Overview:</strong> Stored cross-site scripting (XSS) in the embedded webserver of AKCP sensorProbe before SP480-20210624 enables remote authenticated attackers to introduce arbitrary JavaScript via the <code>Sensor Description</code>, <code>Email (from/to/cc)</code>, <code>System Name</code>, and <code>System Location</code> fields.</p>
                 <p> <strong>Credit: </strong> Tyler Butler</p>
                 <p> <strong>Disclosure Date: </strong> 2021-06-06</p>
-                <p><strong> Advisory Link: </strong> <a href="/about/2021/06/06/CVE-2021-35956.html">CVE-2021-35956</a></p>
+                <p><strong> Advisory Link: </strong> <a href="/2021/06/06/CVE-2021-35956.html">CVE-2021-35956</a></p>
             </div>
             </div>
         </div>
