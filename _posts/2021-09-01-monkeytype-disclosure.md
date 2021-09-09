@@ -33,14 +33,14 @@ In May 2021, independent security researcher Tyler Butler found several critical
 
 **Index**   
 
-+  [Executive Overview](#Executive-Overview)
-+  [About the Vendor](#About-the-Vendor ) 
-+  [Coordinated Disclosures](#Coordinated-Disclosures) 
-    +  [Stored Cross-Site Scripting via Tribe Chat](#Stored-Cross-Site-Scripting-via-Tribe-Chat) 
-    +  [User Impersonation via Tribe Chat](#User-Impersonation-via-Tribe-Chat)
-    +  [Authenticated ByPass](#Authenticated-ByPass)
-+  [Drafting a Security Policy 
-+  [Bug Bounty with Huntr.Dev](#Bug-Bounty-with-Huntr.Dev)
++  [Executive Overview](#executive-overview)
++  [About the Vendor](#about-the-vendor ) 
++  [Coordinated Disclosures](#coordinated-disclosures) 
+    +  [Stored Cross-Site Scripting via Tribe Chat](#stored-cross-site-scripting-via-tribe-chat) 
+    +  [User Impersonation via Tribe Chat](#user-impersonation-via-tribe-chat)
+    +  [Authenticated ByPass](#authenticated-bypass)
++  [Drafting a Security Policy](#drafting-a-security-policy)
++  [Bug Bounty with Huntr.Dev](#drafting-a-security-policy)
 
 
 # About the Vendor  
