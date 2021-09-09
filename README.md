@@ -15,8 +15,8 @@ Obsrva engages vendors of hardware, software, and internet-based services in coo
 ## Vulnerability Advisories  
 Obsrva coordinates with product vendors to publish vulnerability advisories on obsrva.org/advisories. Advisories allow customers, blue and red team operators, and the broader research community to access technical details and research methodology.  
 
-1.  [CVE-2021-3441](/about/2021/08/22/CVE-2021-3441.html)
-2.  [CVE-2021-35956](/about/2021/06/06/CVE-2021-35956.html)
+1.  [CVE-2021-3441](/2021/08/22/CVE-2021-3441.html)
+2.  [CVE-2021-35956](/2021/06/06/CVE-2021-35956.html)
 
 ## Proof of Concept Exploits  
 Obsrva develops proof of concept exploits for discovered vulnerabilities and publishes them on the exploit database (exploit-db.com). PoC’s can also be found on GitHub where PR’s are welcome for the community to collaborate. 

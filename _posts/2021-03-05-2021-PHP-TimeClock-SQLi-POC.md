@@ -2,7 +2,7 @@
 layout: cve
 title:  "PHP Timeclock 1.04 - Time and Boolean Based Blind SQL Injection"
 date: 2021-08-22 09:34:43 -0400
-categories: "About"
+categories: 
 author: Tyler Butler
 description: Proof of concept exploit for PHP Timeclock 1.04 - Time and Boolean Based Blind SQL Injection
 lead: Proof of concept exploit for PHP Timeclock 1.04 - Time and Boolean Based Blind SQL Injection

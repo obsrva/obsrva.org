@@ -2,7 +2,7 @@
 layout: cve
 title:  "AKCP sensorProbe SPX476 - 'Multiple' Cross-Site Scripting (XSS)"
 date: 2021-08-22 09:34:43 -0400
-categories: "About"
+categories: 
 author: Tyler Butler
 description: Proof of concept exploit for AKCP sensorProbe SPX476 - 'Multiple' Cross-Site Scripting (XSS)
 lead: Proof of concept exploit for AKCP sensorProbe SPX476 - 'Multiple' Cross-Site Scripting (XSS)
