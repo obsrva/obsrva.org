@@ -2,7 +2,7 @@
 title: Center
 permalink: /discovery
 
-layout: center
+layout: discovery
 articles: true
 tag: cve
 

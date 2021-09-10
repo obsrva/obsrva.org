@@ -60,9 +60,7 @@ If you're interested in using one of the devices in the library for research, pl
     <button type="submit" value="Submit" class="btn btn-primary mb-3">Submit</button>
   </form>
 
-## Video Encoder/Decoders
-
-
+## Video Encoders
 
 ### Teradek
 
@@ -70,10 +68,19 @@ If you're interested in using one of the devices in the library for research, pl
 
 *The Cube 555 is a camera-top wireless SD video encoder that works with composite cameras. The device streams via dual-band MIMO WiFi, Ethernet, or a single 3G/4G USB modem.*
 
-Point of Contact: [contact@obsrva.org](mailto:contact@obsrva.org)  
-Vendor Website: [teradek.com](teradek.com)  
+**Library ID:** #TER-001  
+**Point of Contact:** [contact@obsrva.org](mailto:contact@obsrva.org)  
+**Vendor Website:** [teradek.com](teradek.com)  
 
 
 ## Printers
 
-This is some more [content](javascript:void(0);).
+### HP Officejet 4630 e-All-in-One Printer series
+
+*The HP Officejet 4630 is a mid-range network enabled printer featuring an embedded webserver for print, scan, and maintenance activities*  
+
+
+
+**Library ID:** #HPX-001   
+**Point of Contact:** [contact@obsrva.org](mailto:contact@obsrva.org)  
+**Vendor Website:** [support.hp.com](https://support.hp.com/us-en/product/hp-officejet-4630-e-all-in-one-printer-series/5305049/product-info)

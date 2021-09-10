@@ -2,13 +2,13 @@
 title: Home
 permalink: /
 
-layout: home
+layout: home-page
 tag: cve
 
 hero:
   image: /assets/uswds/img/camera.png
   callout:
-    alt: "Our Mission"
+    alt: "The Mission"
     text: Find, Triage, Disclose
   button:
     href: /#Recent%20Advisories
