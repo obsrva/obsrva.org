@@ -1,7 +1,7 @@
 primary:
   - text: About
     links:
-      - text: About Us
+      - text: About
         href: /about
       - text: The Team
         href: /team
@@ -17,11 +17,9 @@ primary:
         href: /advisories
       - text: Proof of Concept Exploits
         href: /exploits
-      - text: Responsible Disclosures
-        href: /disclosure
   - text: Connect
     links:
-      - text: Contact Us
+      - text: Contact
         href: /contact
       - text: The Team
         href: /team
