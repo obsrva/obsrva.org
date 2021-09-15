@@ -60,27 +60,107 @@ If you're interested in using one of the devices in the library for research, pl
     <button type="submit" value="Submit" class="btn btn-primary mb-3">Submit</button>
   </form>
 
-## Video Encoders
+## Enviormental Monitors
 
-### Teradek
+### AKCP 
 
-#### Cube 305 Encoder
-
-*The Cube 555 is a camera-top wireless SD video encoder that works with composite cameras. The device streams via dual-band MIMO WiFi, Ethernet, or a single 3G/4G USB modem.*
-
-**Library ID:** #TER-001  
-**Point of Contact:** [contact@obsrva.org](mailto:contact@obsrva.org)  
-**Vendor Website:** [teradek.com](teradek.com)  
+<div class="card mb-3 border-0" style="width: 100%;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="/assets/img/lib/sensorProbe2-demo.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title"><b>AKCP SensorProbe2 detector Sensor SP2 </b></h5>
+        <p class="card-text">Vendor Description: The SP2 is an <a href="https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol">SNMP</a> enabled and Web-Based Environmental Monitoring Device.</p>
+        <p class="card-text">
+        <ul class="list-group list-group-flush">
+        <li class="list-group-item">Library ID: #AKC-001    </li>
+        <li class="list-group-item">Point of Contact: <a href="mailto:contact@obsrva.org">contact@obsrva.org</a></li>
+        <li class="list-group-item">Vendor Website: <a href="https://www.akcp.com/akcp-products/sensorprobe-series/sensorprobe2/">akcp.com</a></li>
+        <li class="list-group-item">Obsrva Research: <a href="/2021/06/06/cve-2021-35956)">CVE-2021-35956</a></li>
+        </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 ## Printers
 
-### HP Officejet 4630 e-All-in-One Printer series
+### HP Inc
 
-*The HP Officejet 4630 is a mid-range network enabled printer featuring an embedded webserver for print, scan, and maintenance activities*  
+<div class="card mb-3 border-0" style="width: 100%;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="/assets/img/lib/hp.png" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title"><b>HP Officejet 4630 e-All-in-One Printer series</b></h5>
+        <p class="card-text">Vendor Description: The HP Officejet 4630 is a mid-range network enabled printer featuring an embedded webserver for print, scan, and maintenance activities</p>
+        <p class="card-text">
+        <ul class="list-group list-group-flush">
+        <li class="list-group-item">Library ID: #HPX-001   </li>
+        <li class="list-group-item">Point of Contact: <a href="mailto:contact@obsrva.org">contact@obsrva.org</a></li>
+        <li class="list-group-item">Vendor Website: <a href="https://support.hp.com/us-en/product/hp-officejet-4630-e-all-in-one-printer-series/5305049/product-info">support.hp.com</a></li>
+        <li class="list-group-item">Obsrva Research: <a href="/2021/08/22/cve-2021-3441">CVE-2021-3441</a></li>
+        </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+## Video Encoders
+
+### Teradek
+
+<div class="card mb-3 border-0" style="width: 100%;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="/assets/img/lib/cube.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title"><b>Teradek Cube 305 Encoder</b></h5>
+        <p class="card-text">Vendor Description: The Cube 555 is a camera-top wireless SD video encoder that works with composite cameras. The device streams via dual-band MIMO WiFi, Ethernet, or a single 3G/4G USB modem.</p>
+        <p class="card-text">
+        <ul class="list-group list-group-flush">
+        <li class="list-group-item">Library ID: #TER-001  </li>
+        <li class="list-group-item">Point of Contact: <a href="mailto:contact@obsrva.org">contact@obsrva.org</a></li>
+        <li class="list-group-item">Vendor Website: <a href="https://www.teradek.com">teradek.com</a></li>
+        </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
-**Library ID:** #HPX-001   
-**Point of Contact:** [contact@obsrva.org](mailto:contact@obsrva.org)  
-**Vendor Website:** [support.hp.com](https://support.hp.com/us-en/product/hp-officejet-4630-e-all-in-one-printer-series/5305049/product-info)
+### Avigilon
+
+<div class="card mb-3 border-0" style="width: 100%;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="/assets/img/lib/avigilon-analog-encoder.14b34950.png" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title"><b>Avigilon 4-Port H.264 Analog Video Encoder</b></h5>
+        <p class="card-text">Vendor Description: Converts a standard analog video feed into a digital stream, enabling digital images to be sent over an IP network. You can then view live images on your IP network using video management software and add IP-based cameras as your budget allows.</p>
+        <p class="card-text">
+        <ul class="list-group list-group-flush">
+        <li class="list-group-item">Library ID: #AVG-001  </li>
+        <li class="list-group-item">Point of Contact: <a href="mailto:contact@obsrva.org">contact@obsrva.org</a></li>
+        <li class="list-group-item">Vendor Website: <a href="https://www.avigilon.com/products/video-infrastructure/enc">avigilon.com</a></li>
+        </ul>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
